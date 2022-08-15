@@ -116,7 +116,6 @@ function reseting() {
 function finding(searchText) {
   let buffring = [];
   if (searchText == "") {
-    console.log(corses);
     return corses;
   }
   for (let i = 0; i < corses.length; i++) {
