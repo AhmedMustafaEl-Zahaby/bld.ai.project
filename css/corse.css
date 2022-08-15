@@ -17,12 +17,14 @@ li {
   color: #6a6f73;
   width: fit-content;
 }
+
 .li {
   font-weight: bold;
   margin-right: 12px;
   color: #6a6f73;
   width: fit-content;
 }
+
 li:hover {
   color: purple;
   cursor: pointer;
@@ -41,6 +43,7 @@ li:hover {
 section i {
   color: goldenrod;
 }
+
 .h5,
 h5 {
   font-size: 1rem;
