@@ -1,0 +1,59 @@
+section {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  line-height: 1.6;
+  margin-bottom: 5%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  font-weight: bold;
+  margin-right: 12px;
+  color: #6a6f73;
+  width: fit-content;
+}
+li:hover {
+  color: purple;
+  cursor: pointer;
+}
+.outer-box {
+  border: 1px solid #6a6f73;
+  margin-top: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 0 #ddd;
+}
+.rate {
+  font-weight: bold;
+  color: goldenrod;
+  font-size: 20px;
+}
+section i {
+  color: goldenrod;
+}
+.courses {
+  width: fit-content;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+.course {
+  width: 240px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.explore-button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.course-image {
+  width: 240px;
+  height: 135px;
+}

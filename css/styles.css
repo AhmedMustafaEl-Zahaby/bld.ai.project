@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  align-items: center;
+  display: flex;
+  box-shadow: 10px 10px 10px 0 #ddd;
+  height: 80px;
+}
+nav div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+nav i {
+  cursor: pointer;
+}
+.udemy-logo-size {
+  width: 91px;
+  height: 34px;
+}
+nav .search-box {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 3px;
+  flex: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+nav input {
+  border: none;
+  margin-left: 25px;
+  flex: 1;
+  outline: none;
+  font-size: 20px;
+}
+.magnificent-glass-logo {
+  border: none;
+  cursor: pointer;
+}
+.magnificent-glass-logo:focus {
+  border: none;
+  outline: none;
+}
+nav form {
+  display: flex;
+}
+input:focus-visible {
+  border: none;
+}
+nav a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Poppiens", sans-serif;
+  color: black;
+}
+nav a:hover {
+  color: purple;
+}
+button {
+  padding: 10px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+button.signup-button {
+  color: white;
+  background-color: black;
+}
+.signup-button:hover {
+  cursor: pointer;
+}
+.small-screen {
+  display: none;
+}
+@media screen and (max-width: 1105px) {
+  nav .search-box {
+    display: none;
+  }
+  .small-screen {
+    display: block;
+  }
+  .small-screen.magificent-glass-small-screen {
+    display: inline;
+  }
+  .big-screen {
+    display: none;
+  }
+  nav {
+    align-items: center;
+    justify-content: space-between;
+  }
+}
