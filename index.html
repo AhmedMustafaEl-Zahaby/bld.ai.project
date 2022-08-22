@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Udemy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/mn.css" />
     <link rel="stylesheet" href="css/corse.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <nav>
@@ -89,32 +103,150 @@
         Choose from 185,000 online video cources with new additions published
         every month
       </p>
-      <ul>
-        <li>Python</li>
-        <li>Excel</li>
-        <li>Web Development</li>
-        <li>JavaScript</li>
-        <li>Data Science</li>
-        <li>AWS Certification</li>
-        <li>Drawing</li>
+      <ul class="courses-container">
+        <li class="select-course selected" href="http://localhost:3000/Python">
+          Python
+        </li>
+        <li class="select-course selected" href="http://localhost:3000/Excel">
+          Excel
+        </li>
+        <li class="select-course selected" href="http://localhost:3000/Web">
+          Web Development
+        </li>
+        <li
+          class="select-course selected"
+          href="http://localhost:3000/JavaScript"
+        >
+          JavaScript
+        </li>
+        <li
+          class="select-course selected"
+          href="http://localhost:3000/DataScience"
+        >
+          Data Science
+        </li>
+        <li class="select-course selected" href="http://localhost:3000/AWS">
+          AWS Certification
+        </li>
+        <li class="select-course selected" href="http://localhost:3000/Drawing">
+          Drawing
+        </li>
       </ul>
-      <div class="outer-box">
-        <h2>Expand your career opportunities with Python</h2>
-        <p>
-          Take one of Udemy’s range of Python courses and learn how to code
-          using this incredibly useful language. Its simple syntax and
-          readability makes Python perfect for Flask, Django, data science, and
-          machine learning. You’ll learn how to build everything from games to
-          sites to apps. Choose from a range of courses that will appeal to
-        </p>
-        <button class="explore-button login-button">Explore Python</button>
-        <div class="courses"></div>
+      <div class="outer-box"></div>
+    </section>
+    <section class="catigories">
+      <p class="pb-2 font-weight-bold">Top Categories</p>
+      <div class="row mt-2 center-catig">
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+                alt="Design-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Design</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"
+                alt="Development-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Development</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
+                alt="Marketing-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Marketing</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+                alt="IT-ans-Software-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">IT ans Software</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+                alt="Personal-Development-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Personal Development</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"
+                alt="Photography-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Photography</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+                alt="Design-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Design</div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-4 col-sm-12 mb-1">
+          <div class="card border-0">
+            <div class="card-img-top">
+              <img
+                src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
+                alt="Music-logo"
+              />
+            </div>
+            <div class="card-title font-weight-bold">Music</div>
+          </div>
+        </div>
       </div>
     </section>
-    <script src="scrip.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/03b37b666b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="scrip.js"></script>
   </body>
 </html>

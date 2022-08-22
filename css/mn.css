@@ -44,6 +44,13 @@ h3 {
 .outside-text-card {
   display: none;
 }
+.col {
+  transition: 1s;
+}
+.col:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
 @media screen and (max-width: 1105px) {
   .back-ground {
     display: none;
@@ -63,9 +70,9 @@ h3 {
   }
   .outside-image {
     display: inline-block;
-    width: 100%;
-    max-width: 400px;
-    min-width: 440px;
+    width: 80%;
+    max-width: 450px;
+    min-width: 300px;
     max-height: 100%;
     height: auto;
   }

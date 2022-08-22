@@ -17,6 +17,14 @@ li {
   color: #6a6f73;
   width: fit-content;
 }
+
+.li {
+  font-weight: bold;
+  margin-right: 12px;
+  color: #6a6f73;
+  width: fit-content;
+}
+
 li:hover {
   color: purple;
   cursor: pointer;
@@ -35,6 +43,11 @@ li:hover {
 section i {
   color: goldenrod;
 }
+
+.h5,
+h5 {
+  font-size: 1rem;
+}
 .courses {
   width: fit-content;
   margin-top: 15px;
@@ -48,6 +61,11 @@ section i {
   margin-bottom: 15px;
   margin-right: 15px;
   cursor: pointer;
+  transition: 1s;
+}
+.course:hover {
+  transform: scale(1.05);
+  z-index: 1;
 }
 .explore-button {
   margin-top: 10px;
@@ -56,4 +74,51 @@ section i {
 .course-image {
   width: 240px;
   height: 135px;
+}
+.selected {
+  color: black;
+}
+.selected:hover {
+  color: black;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  height: 100%;
+  font-size: 12px;
+  background: #fff;
+}
+.swiper p {
+  margin: 0;
+  font-weight: 30;
+}
+.swiper i {
+  font-size: 10px;
+}
+.swiper .rate {
+  font-size: 16px;
+  font-weight: 400;
+}
+.swiper .price {
+  font-size: 16px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  top: 20% !important;
+  color: white !important;
+  border-radius: 50% !important;
+  background-color: black !important;
+  width: 40px !important;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+.swiper-button-next {
+  right: 0px !important;
+}
+.swiper-button-prev {
+  left: 0px !important;
 }
